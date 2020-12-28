@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.js"></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+   <body>
+  <div class="ui sidebar inverted vertical menu">
+    <a class="item">
+      1
+    </a>
+    <a class="item">
+      2
+    </a>
+    <a class="item">
+      3
+    </a>
+  </div>
+  <div class="pusher">
+  <button id="menu" class="ui button">Menu</button>
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit. In accusamus, esse minus, beatae quam cupiditate. Iste, vitae, animi. Repellat hic natus soluta eligendi, reiciendis voluptatem id reprehenderit nulla fugiat voluptates.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi minima ducimus dolore praesentium perferendis sequi porro ab pariatur quas, recusandae, error in quisquam excepturi, itaque et! Debitis, mollitia id dignissimos!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, possimus explicabo ea iusto ex. Accusantium error saepe sint explicabo aut ipsum quas, veritatis, doloremque, iusto optio facere iure atque adipisci.
+  </div>
+</body>
+    <script>
+   
+    $('#menu').click(function(){
+        $('.ui.sidebar').sidebar('setting', 'transition', 'overlay'). sidebar('toggle');
+    })
+    </script>
+</body>
+</html>
